@@ -1,0 +1,40 @@
+Lincoln Samelson
+Ling 506
+Final Project
+Automatic Discourse Relation Detection
+
+
+Usage
+-----
+USERNAME$ python3 main.py
+
+
+Requirements
+------------
+- Python3
+- pdtb2 (I have not included, because of the size, but you can clone the repo here https://github.com/cgpotts/pdtb2.git)
+	- Note: Be sure pdtb2 appears in the same directory as main.py
+	- make sure to unzip pdtb2.csv.zip, this is the corpus data
+- Libraries
+	- nltk
+	- numpy
+	- string
+	- sklearn
+
+
+My Process
+----------
+This next part will be me describing how exactly I coded this project
+
+1. load the corpus
+2. pre process the corpus
+	- lowercase
+	- punctuation
+	- stopwords
+	- numbers
+3. convert the corpus into a format that can be fed into sklearns models
+4. split the data into training data, testing data, training labels, testing labels
+5. convert text into tfdif format
+6. train the testing data on the Naive Bayes model
+7. run the model on the test data
+8. evaluate
