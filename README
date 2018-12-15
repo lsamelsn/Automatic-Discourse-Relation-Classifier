@@ -17,7 +17,8 @@ USERNAME$ python3 main.py
 Requirements
 ------------
 - Python3
-- pdtb2 (I have not included, because of the size, but you can clone the repo [here](https://github.com/cgpotts/pdtb2.git))
+- pdtb2
+	- I have not included, because of the size, but you can clone the repo [here](https://github.com/cgpotts/pdtb2.git)
 	- Note: Be sure pdtb2 appears in the same directory as main.py
 	- make sure to unzip pdtb2.csv.zip, this is the corpus data
 - Libraries
