@@ -126,7 +126,7 @@ def convert_data_to_tfdif_format(x_train, x_test, y_train, y_test):
 def evaluate(num_total, num_correct):
 	global cmatrix
 
-	print(np.matrix(cmatrix))
+	print("\n", np.matrix(cmatrix), "\n")
 
 	# TruePos / (TruePos + FalsePos)
 	precision = None
@@ -200,7 +200,7 @@ def main():
 
 	print("Precision: ", precision)
 	print("Recall: ", recall)
-	print("Accuracy: ", accuracy)
+	print("Accuracy: ", accuracy, "\n")
 
 
 main()
